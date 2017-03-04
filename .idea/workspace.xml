@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be613d52-cf9c-457b-99d5-c3064aac0b00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shoebot.py" afterPath="$PROJECT_DIR$/shoebot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" />
-    </list>
+    <list default="true" id="be613d52-cf9c-457b-99d5-c3064aac0b00" name="Default" comment="" />
     <ignored path="shoebot.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
