@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'/>
+		<title> submit a response </title>
+		{% load staticfiles %}
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+		<script type = "text/javascript">
+			 <!--
+			 function callPython(){
+			 	document.getElementById('submit1').setAttribute('value','Loading');
+			    } //-->
+     	</script>
+
+	</head>
+	<body>
+
+		<div class = "container">
+			
+			<div class="row">
+				<section class = "col-sm-12">
+					<h1>Instructions:</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atomis sublatum comit personae pueros ducem gaudemus disserendi, dum physici sero lictores tribus doloremque, discordia inter exitum iucunditate cernantur ego. Qui eximiae signiferumque anteponant, inertissimae sua. Inducitur si, nacti venandi scriptorem dici locus dolere omnesque atque individua. Adiungimus futura terentii, amori quamvis plane ipsum pertinerent umbram horreat iisque, obiecta, patrioque beatus declinationem remotis astris una. Audiebamus quosdam eos, natus, eaque angere silano legimus sapienter sumus omnem electram summum vituperandae, amorem gratissimo defendit.
+				</section> 
+			</div>
+
+			<div class="row">
+				<div class='col-xs-12'>
+					<h2> Shoe info </h2>
+					<form action='' method='post' class="form-horizontal">
+						{% csrf_token %}
+						{% include 'interface/form-template.html' %}
+						<div class="form-group">
+							<div class='col-sm-10 col-sm-push-2'>
+								<input type="submit" id="submit1" class="btn btn-default" onclick="callPython()" value="submit"/>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class='col-sm-12 col-sm-push-2'>
+					<div class="g-recaptcha" data-sitekey="6Le4AQgUAAAAAABhHEq7RWQNJwGR_M-6Jni9tgtA">
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<footer class='col-sm-12'>
+					<p class="text-center">&copy; copyright 2017</p>
+				</footer>
+			</div>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
