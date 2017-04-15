@@ -21,10 +21,6 @@ if __name__ == '__main__':
 
 		# Generate backdoor link
 		url = shoebot.URLGen(model_num, size, captcha_token)
-		print model_num
-		print size
-		print captcha_token
-		print url
 
 		# Open new tab
 		window_before = driver.window_handles[0]
